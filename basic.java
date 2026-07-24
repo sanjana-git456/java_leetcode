@@ -11,5 +11,10 @@ public class Basic {
         for (int i = 0; i < 5; i++) {
             System.out.print(i + " ");
         }
+        System.out.println();
+        int[] nums = {1, 2, 3, 4, 5};
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
+        }
     }
 }
