@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+
 public class Basic {
 
     public static void main(String[] args) {
@@ -16,5 +18,12 @@ public class Basic {
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }
+        System.out.println();
+        ArrayList<Integer> al = new ArrayList<>();
+        al.add(10);
+        al.add(20);
+        System.out.println(al);
+        System.out.println(al.get(0));
+        System.out.println(al.size());
     }
 }
