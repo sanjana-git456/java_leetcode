@@ -9,7 +9,7 @@ public class Basic {
         System.out.println(a);
         System.out.println(b);
         for (int i = 0; i < 5; i++) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 }
