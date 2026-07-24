@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Basic {
 
@@ -25,5 +25,10 @@ public class Basic {
         System.out.println(al);
         System.out.println(al.get(0));
         System.out.println(al.size());
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("apple", 5);
+        map.put("banana", 3);
+        System.out.println(map.get("apple"));
+        System.out.println(map.containsKey("apple"));
     }
 }
