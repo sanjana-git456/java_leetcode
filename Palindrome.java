@@ -23,7 +23,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
         Palindrome p = new Palindrome();
-        char[] w = "A man, a plan, a canal: Panama".toCharArray();
-        p.pal(w);
+        char[] s = "A man, a plan, a canal: Panama".toCharArray();
+        p.pal(s);
     }
 }
