@@ -4,12 +4,12 @@ import java.util.*;
 public class Anagram {
 
     public void anagr(char[] s, char[] t) {
-        Arrays.sort(s);
-        Arrays.sort(t);
         if (s.length != t.length) {
             System.out.println("False");
             return;
         }
+        Arrays.sort(s);
+        Arrays.sort(t);
         if (Arrays.equals(s, t)) {
             System.out.println("True");
         } else {
