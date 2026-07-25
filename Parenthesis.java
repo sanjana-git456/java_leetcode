@@ -13,7 +13,7 @@ public class Parenthesis {
         for (int i = 0; i < nums.length; i++) {
             if (!map.containsKey(nums[i])) {
                 stack.push(nums[i]);
-            } else if (map.containsKey(nums[i]) && !stack.isEmpty() && stack.peek() == map.get(nums[i])) {
+            } else if (map.containsKey(nums[i]) && !stack.isEmpty() && stack.peek().equals(map.get(nums[i]))) {
                 stack.pop();
             } else {
                 valid = false;
