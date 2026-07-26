@@ -26,11 +26,11 @@ public class Minimum {
     }
 
     public int top() {
-        return minstack.peek();
+        return stack.peek();
     }
 
     public int getMin() {
-        return stack.peek();
+        return minstack.peek();
     }
 
     public static void main(String[] args) {
