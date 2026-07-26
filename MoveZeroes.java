@@ -14,9 +14,9 @@ public class MoveZeroes {
             }
         }
         arr1.addAll(arr2);
-        int[] result = new int[arr2.size()];
-        for (int i = 0; i < arr2.size(); i++) {
-            result[i] = arr2.get(i);
+        int[] result = new int[arr1.size()];
+        for (int i = 0; i < arr1.size(); i++) {
+            result[i] = arr1.get(i);
         }
         return result;
     }
