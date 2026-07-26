@@ -14,4 +14,11 @@ public class PlusOne {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        PlusOne p = new PlusOne();
+        int[] digits = {9, 9, 9};
+        int[] result = p.plusone(digits);
+        System.out.println(java.util.Arrays.toString(result));
+    }
 }
