@@ -21,9 +21,9 @@ public class Parenthesis {
             }
         }
         if (stack.isEmpty() && valid) {
-            System.out.println("Valid");
+            System.out.println("Valid parenthesis");
         } else {
-            System.out.println("Invalid");
+            System.out.println("Invalid parenthesis");
         }
     }
 
