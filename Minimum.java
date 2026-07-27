@@ -38,9 +38,9 @@ public class Minimum {
         mi.push(-2);
         mi.push(0);
         mi.push(-3);
-        System.out.println(mi.getMin());  // should print -3
+        System.out.println(mi.getMin());
         mi.pop();
-        System.out.println(mi.top());     // should print 0
-        System.out.println(mi.getMin());  // should print -2
+        System.out.println(mi.top());
+        System.out.println(mi.getMin());
     }
 }
