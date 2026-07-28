@@ -1,7 +1,7 @@
 
 public class Floyd {
 
-    class ListNode {
+    public class ListNode {
 
         int val;
         ListNode next;
@@ -34,7 +34,7 @@ public class Floyd {
         n1.next = n2;
         n2.next = n3;
         n3.next = n1;
-        System.out.println(f.cycle(n1));
+        System.out.println("Cycle from node " + n1.val + ": " + f.cycle(n1));
 
         // 1 -> 2 -> 3 -> null
         Floyd.ListNode m1 = f.new ListNode(1);
@@ -42,6 +42,6 @@ public class Floyd {
         Floyd.ListNode m3 = f.new ListNode(3);
         m1.next = m2;
         m2.next = m3;
-        System.out.println(f.cycle(m1));
+        System.out.println("Cycle from node " + m1.val + ": " + f.cycle(m1));
     }
 }
